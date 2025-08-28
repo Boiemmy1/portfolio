@@ -1,0 +1,44 @@
+* {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#board {
+    background-image: url("image/background.jpg");
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center center; 
+      /* height: 550px; */
+}
+#welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+#greeting {
+    font-size: 60px;
+    font-weight: bold;
+}
+#greeting1 {
+    font-size: 27px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+#greeting2 {
+    font-size: 21px;
+    /* font-weight: 200; */
+
+}
+#list {
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+#card {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+#card :hover{
+    border: none;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1);
+}
+#footer {
+    color: darkgray;
+}
